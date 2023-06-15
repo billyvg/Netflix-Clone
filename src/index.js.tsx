@@ -12,7 +12,7 @@ import 'swiper/css/pagination'
 // Import main sass file to apply global styles
 import './static/sass/style.scss'
 
-// import './sdks/sentry'
+import './sdks/sentry'
 // import './sdks/datadog'
 // import './sdks/logrocket'
 
