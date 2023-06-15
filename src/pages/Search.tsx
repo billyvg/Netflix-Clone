@@ -57,7 +57,7 @@ const Search = () => {
           {searchResults.map((movie: IMovie) => {
             if (movie.backdrop_path !== null && movie.media_type !== 'person') {
               const movieImageUrl =
-                'https://image.tmdb.org/t/p/w500' + movie.backdrop_path
+                '//image.tmdb.org/t/p/w500' + movie.backdrop_path
               return (
                 <div className='movie'>
                   <div

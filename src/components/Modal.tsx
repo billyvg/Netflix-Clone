@@ -14,10 +14,12 @@ const Backdrop = ({ toggleBackdrop, show }: IBackdrop) =>
   show ? <div onClick={toggleBackdrop} className='backdrop'></div> : null
 
 const Modal = ({ show, toggleBackdrop, children, backgroundImage }: IModal) => {
-  const backgroundStyle = {
-    backgroundSize: 'cover',
-    backgroundImage: `url(https://image.tmdb.org/t/p/original/${backgroundImage})`,
-  }
+  const backgroundStyle = backgroundImage
+    ? {
+        backgroundSize: 'cover',
+        backgroundImage: `url(//image.tmdb.org/t/p/original${backgroundImage})`,
+      }
+    : {}
 
   return (
     <div>

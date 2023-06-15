@@ -1,4 +1,3 @@
-import React from 'react'
 import * as ReactDOM from 'react-dom/client'
 import { Provider } from 'react-redux'
 import '@babel/polyfill'
@@ -12,6 +11,10 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 // Import main sass file to apply global styles
 import './static/sass/style.scss'
+
+// import './sdks/sentry'
+// import './sdks/datadog'
+// import './sdks/logrocket'
 
 const app = (
   <Provider store={store}>
