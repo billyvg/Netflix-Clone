@@ -14,7 +14,7 @@ import './static/sass/style.scss'
 
 // import './sdks/sentry'
 // import './sdks/datadog'
-// import './sdks/logrocket'
+import './sdks/logrocket'
 
 const app = (
   <Provider store={store}>
