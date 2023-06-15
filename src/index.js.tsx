@@ -13,7 +13,7 @@ import 'swiper/css/pagination'
 import './static/sass/style.scss'
 
 // import './sdks/sentry'
-// import './sdks/datadog'
+import './sdks/datadog'
 // import './sdks/logrocket'
 
 const app = (
