@@ -1,6 +1,6 @@
 import * as Sentry from '@sentry/react'
 
-if (process.env.SENTRY_DSN && process.env.REPLAY_SERVICE === 'sentry') {
+if (process.env.SENTRY_DSN) {
   Sentry.init({
     // ENTER YOUR DSN HERE
     dsn: process.env.SENTRY_DSN,

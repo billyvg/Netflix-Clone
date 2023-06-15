@@ -1,6 +1,6 @@
 import { datadogRum } from '@datadog/browser-rum'
 
-if (process.env.DATADOG_APP_ID && process.env.REPLAY_SERVICE === 'datadog') {
+if (process.env.DATADOG_APP_ID) {
   datadogRum.init({
     applicationId: process.env.DATADOG_APP_ID,
     clientToken: process.env.DATADOG_CLIENT_TOKEN,
