@@ -64,8 +64,8 @@ const DisplayMovieRow = ({
         {movies &&
           movies.map((movie, idx) => {
             let movieImageUrl = isNetflixMovies
-              ? `https://image.tmdb.org/t/p/original/${movie.poster_path}`
-              : `https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`
+              ? `//image.tmdb.org/t/p/original${movie.poster_path}`
+              : `//image.tmdb.org/t/p/w500${movie.backdrop_path}`
 
             if (movie.poster_path && movie.backdrop_path !== null) {
               return (
