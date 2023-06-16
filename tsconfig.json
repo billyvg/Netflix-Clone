@@ -4,7 +4,7 @@
   ],
   "compilerOptions": {
     "moduleResolution": "node",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "lib": [
       "dom",
@@ -19,6 +19,7 @@
     "module": "esnext",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noImplicitAny": false,
     "noEmit": true
   }
 }
