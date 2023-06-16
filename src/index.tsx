@@ -7,6 +7,10 @@ import { store } from "./redux";
 
 import App from "./App";
 
+import './sdks/sentry'
+// import './sdks/datadog'
+// import './sdks/logrocket'
+
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement!);
 
