@@ -6,7 +6,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <BrowserRouter history={history}>
+    <BrowserRouter history={history} basename={"/"}>
       <div>
         <Switch>
           <Route component={Layout} />
