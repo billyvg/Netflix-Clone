@@ -15,7 +15,7 @@
     "react-dom": "18.2.0",
     "react-redux": "^7.1.0",
     "react-router-dom": "5.3.4",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-test-renderer": "^16.8.6",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
@@ -44,5 +44,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "volta": {
+    "node": "16.20.0"
+  }
 }
