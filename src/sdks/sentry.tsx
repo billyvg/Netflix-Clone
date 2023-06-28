@@ -7,9 +7,7 @@ if (process.env.SENTRY_DSN) {
 
     replaysSessionSampleRate: 1.0,
     // release: process.env.REACT_APP_SENTRY_RELEASE,
-    integrations: [new Sentry.BrowserTracing(), new Sentry.Replay({
-      networkDetailAllowUrls: ['/'],
-    })],
+    integrations: [new Sentry.BrowserTracing()],
 
     // Set tracesSampleRate to 1.0 to capture 100%
     // of transactions for performance monitoring.
